@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:background="#D9DDDC">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".UkayRecosActivity">
+
+        <TextView
+            android:id="@+id/ukay_recos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Ukay Shop Recommendations"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hilltop_card"
+            android:layout_width="316dp"
+            android:layout_height="500dp"
+            android:layout_margin="25dp"
+            app:layout_constraintTop_toBottomOf="@+id/ukay_recos"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@color/white"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/hilltop_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="Hilltop"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.195"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/hilltop_img"
+                    android:layout_width="316dp"
+                    android:layout_height="182dp"
+                    android:layout_marginTop="40dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/hilltop_text"
+                    app:srcCompat="@drawable/hilltop"/>
+
+                <TextView
+                    android:id="@+id/hilltop_address"
+                    android:layout_width="247dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Address: Sky Terrace, SM Baguio, Lvl 3 Luneta Hill Drive, Baguio City, Benguet"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/hilltop_img" />
+
+                <TextView
+                    android:id="@+id/hilltop_review"
+                    android:layout_width="244dp"
+                    android:layout_height="157dp"
+                    android:layout_marginTop="10dp"
+                    android:text="One of my favorite local coffee shops, as it captures the whole Baguio vibe. Signature drinks are named after famous mountains in the Cordillera region. Overall, the coffee shop offers a unique and satisfying experience to customers with their refreshing drinks and warm coffee, and supporting local businesses at the same time. "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/hilltop_address" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/night_market_card"
+            android:layout_width="316dp"
+            android:layout_height="500dp"
+            android:layout_margin="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/hilltop_card"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@color/white"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/night_market_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="Night Market"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.195"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/night_market_img"
+                    android:layout_width="316dp"
+                    android:layout_height="182dp"
+                    android:layout_marginTop="40dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/night_market_text"
+                    app:srcCompat="@drawable/night_market"/>
+
+                <TextView
+                    android:id="@+id/night_market_address"
+                    android:layout_width="247dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Address: Room 305, Patria De Baguio, Session Road, Baguio City, Benguet"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/night_market_img" />
+
+                <TextView
+                    android:id="@+id/night_market_review"
+                    android:layout_width="240dp"
+                    android:layout_height="114dp"
+                    android:layout_marginTop="10dp"
+                    android:text="A small, Paris-inspired cafe with a homey ambiance. Another one of my favorites, as the coffee-based drinks are great and comforting. As you take a sip coffee, enjoy the view of Session Road, overlooking from the cafe."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/night_market_address" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/skyworld_card"
+            android:layout_width="316dp"
+            android:layout_height="500dp"
+            android:layout_margin="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/night_market_card"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@color/white"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/skyworld_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="Skyworld"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.195"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/skyworld_img"
+                    android:layout_width="257dp"
+                    android:layout_height="165dp"
+                    android:layout_marginTop="36dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.44"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/skyworld_text"
+                    app:srcCompat="@drawable/skyworld" />
+
+                <TextView
+                    android:id="@+id/skyworld_address"
+                    android:layout_width="247dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Address: Skyzone, Porta Vaga Mall, Baguio City, Benguet"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.376"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/skyworld_img" />
+
+                <TextView
+                    android:id="@+id/skyworld_review"
+                    android:layout_width="243dp"
+                    android:layout_height="181dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Another one of my favorite cafes, where they offer a variety of food and drinks- ranging from cakes, pasta, snacks, and of course, coffee. It is a perfect hangout spot for friends. It offers a cozy ambiance with books that customers are free to borrow inside the cafe. This cafe combines the love of reading and coffee all in one place."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.342"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/skyworld_address" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

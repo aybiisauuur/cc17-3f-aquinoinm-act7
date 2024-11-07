@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyCityFinal</string>
+    <string name="coffee_shops">Coffee Shops</string>
+    <string name="view_a_list_of_recommended_places_in_baguio_city_benguet_tap_on_each_card_to_view_three_recommendations_for_each_category_from_the_author">View a list of recommended places in Baguio City, Benguet. Tap on each card to view three recommendations for each category from the author.</string>
+    <string name="my_city_baguio_city">My City: Baguio City</string>
+    <string name="ukay_ukay_spots">Ukay-ukay Spots</string>
+    <string name="bakeries">Bakeries</string>
+</resources>
