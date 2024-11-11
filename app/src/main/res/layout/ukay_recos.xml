@@ -54,27 +54,27 @@
                     android:textSize="20dp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.195"
+                    app:layout_constraintHorizontal_bias="0.132"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:id="@+id/hilltop_img"
                     android:layout_width="316dp"
                     android:layout_height="182dp"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="10dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/hilltop_text"
-                    app:srcCompat="@drawable/hilltop"/>
+                    app:layout_constraintTop_toBottomOf="@id/hilltop_text"
+                    app:srcCompat="@drawable/hilltop" />
 
                 <TextView
                     android:id="@+id/hilltop_address"
                     android:layout_width="247dp"
                     android:layout_height="38dp"
                     android:layout_marginTop="10dp"
-                    android:text="Address: Sky Terrace, SM Baguio, Lvl 3 Luneta Hill Drive, Baguio City, Benguet"
+                    android:text="Address: Hilltop St., Baguio City, Benguet"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/hilltop_img" />
@@ -83,9 +83,10 @@
                     android:id="@+id/hilltop_review"
                     android:layout_width="244dp"
                     android:layout_height="157dp"
-                    android:layout_marginTop="10dp"
-                    android:text="One of my favorite local coffee shops, as it captures the whole Baguio vibe. Signature drinks are named after famous mountains in the Cordillera region. Overall, the coffee shop offers a unique and satisfying experience to customers with their refreshing drinks and warm coffee, and supporting local businesses at the same time. "
+                    android:layout_marginTop="16dp"
+                    android:text="Located in Block Three and Four of the Baguio Public Market, this ukay-ukay spot offers a wide variety of clothes. The prices are low (sometimes they even sell for 10 pesos) and the quality is good. "
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.472"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/hilltop_address" />
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -122,31 +123,31 @@
 
                 <ImageView
                     android:id="@+id/night_market_img"
-                    android:layout_width="316dp"
-                    android:layout_height="182dp"
-                    android:layout_marginTop="40dp"
+                    android:layout_width="248dp"
+                    android:layout_height="167dp"
+                    android:layout_marginTop="36dp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintHorizontal_bias="0.588"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/night_market_text"
-                    app:srcCompat="@drawable/night_market"/>
+                    app:srcCompat="@drawable/night_market" />
 
                 <TextView
                     android:id="@+id/night_market_address"
                     android:layout_width="247dp"
                     android:layout_height="38dp"
                     android:layout_marginTop="10dp"
-                    android:text="Address: Room 305, Patria De Baguio, Session Road, Baguio City, Benguet"
+                    android:text="Address: Harrison Road, Baguio City, Benguet"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/night_market_img" />
 
                 <TextView
                     android:id="@+id/night_market_review"
-                    android:layout_width="240dp"
-                    android:layout_height="114dp"
+                    android:layout_width="236dp"
+                    android:layout_height="176dp"
                     android:layout_marginTop="10dp"
-                    android:text="A small, Paris-inspired cafe with a homey ambiance. Another one of my favorites, as the coffee-based drinks are great and comforting. As you take a sip coffee, enjoy the view of Session Road, overlooking from the cafe."
+                    android:text="The Baguio Night Market is open everyday (except during inclement weather), starting from 9:00PM, and vendors set up their stalls in the whole stretch of Harrison Road. Thrifted clothes are sold here for a reasonable price and many have had great finds in the night market, from bags, shoes, coats and other clothing items."
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/night_market_address" />
@@ -178,19 +179,19 @@
                     android:textSize="20dp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.195"
+                    app:layout_constraintHorizontal_bias="0.112"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:id="@+id/skyworld_img"
                     android:layout_width="257dp"
                     android:layout_height="165dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_marginTop="10dp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.44"
+                    app:layout_constraintHorizontal_bias="0.271"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/skyworld_text"
+                    app:layout_constraintTop_toBottomOf="@+id/skyworld_text"
                     app:srcCompat="@drawable/skyworld" />
 
                 <TextView
@@ -198,7 +199,7 @@
                     android:layout_width="247dp"
                     android:layout_height="38dp"
                     android:layout_marginTop="10dp"
-                    android:text="Address: Skyzone, Porta Vaga Mall, Baguio City, Benguet"
+                    android:text="Address: F.Calderon St., Baguio City, Benguet"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.376"
                     app:layout_constraintStart_toStartOf="parent"
@@ -209,7 +210,7 @@
                     android:layout_width="243dp"
                     android:layout_height="181dp"
                     android:layout_marginTop="10dp"
-                    android:text="Another one of my favorite cafes, where they offer a variety of food and drinks- ranging from cakes, pasta, snacks, and of course, coffee. It is a perfect hangout spot for friends. It offers a cozy ambiance with books that customers are free to borrow inside the cafe. This cafe combines the love of reading and coffee all in one place."
+                    android:text="This commercial space with three floors has several stalls inside. Many people go here due to its convenient location. But because of that its prices are way higher compared to other ukay spots. Still, many can buy great finds here for good quality."
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.342"
                     app:layout_constraintStart_toStartOf="parent"
