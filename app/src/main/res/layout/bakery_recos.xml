@@ -74,7 +74,7 @@
                     android:layout_width="247dp"
                     android:layout_height="38dp"
                     android:layout_marginTop="10dp"
-                    android:text="Address: Sky Terrace, SM Baguio, Lvl 3 Luneta Hill Drive, Baguio City, Benguet"
+                    android:text="Address: Otek St., Baguio City, Benguet"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/panadero_img" />
@@ -84,7 +84,7 @@
                     android:layout_width="244dp"
                     android:layout_height="157dp"
                     android:layout_marginTop="10dp"
-                    android:text="One of my favorite local coffee shops, as it captures the whole Baguio vibe. Signature drinks are named after famous mountains in the Cordillera region. Overall, the coffee shop offers a unique and satisfying experience to customers with their refreshing drinks and warm coffee, and supporting local businesses at the same time. "
+                    android:text="One of my favorite local bakeries. I tend to stop by here often to buy bread. Their best seller is pandesal, which is soft and flavorful. Their cheese bread and banana muffins are also good. Overall, they offer soft and flavorful bread that is perfect for sharing with friends or family."
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/panadero_address" />
@@ -136,17 +136,17 @@
                     android:layout_width="247dp"
                     android:layout_height="38dp"
                     android:layout_marginTop="10dp"
-                    android:text="Address: Room 305, Patria De Baguio, Session Road, Baguio City, Benguet"
+                    android:text="Address: Session Road, Baguio City, Benguet"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/mucho_pan_img" />
 
                 <TextView
                     android:id="@+id/mucho_pan_review"
-                    android:layout_width="240dp"
-                    android:layout_height="114dp"
+                    android:layout_width="241dp"
+                    android:layout_height="153dp"
                     android:layout_marginTop="10dp"
-                    android:text="A small, Paris-inspired cafe with a homey ambiance. Another one of my favorites, as the coffee-based drinks are great and comforting. As you take a sip coffee, enjoy the view of Session Road, overlooking from the cafe."
+                    android:text="Another one of my favorite bakeries. I also tend to stop by here when I want a snack before I go to class. Mucho Pan sells tasty bread, especially their bread. But the favorite pastry I always buy from them is their pianono. Overall, this is a great bakery with their soft and delicious pastries."
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/mucho_pan_address" />
@@ -195,10 +195,10 @@
 
                 <TextView
                     android:id="@+id/victorias_address"
-                    android:layout_width="247dp"
-                    android:layout_height="38dp"
+                    android:layout_width="250dp"
+                    android:layout_height="75dp"
                     android:layout_marginTop="10dp"
-                    android:text="Address: Skyzone, Porta Vaga Mall, Baguio City, Benguet"
+                    android:text="Address: 4 Branches in Baguio (Mabini St., Centermall, Loakan, and Magsaysay), and 1 branch in La Trinidad (Tiong San, Km.4)"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.376"
                     app:layout_constraintStart_toStartOf="parent"
@@ -209,7 +209,7 @@
                     android:layout_width="243dp"
                     android:layout_height="181dp"
                     android:layout_marginTop="10dp"
-                    android:text="Another one of my favorite cafes, where they offer a variety of food and drinks- ranging from cakes, pasta, snacks, and of course, coffee. It is a perfect hangout spot for friends. It offers a cozy ambiance with books that customers are free to borrow inside the cafe. This cafe combines the love of reading and coffee all in one place."
+                    android:text="Victoria's Bakery is known for its delicious cream puffs. And rightly so, because their cream puffs are truly delicious. Its other pastries are also delicious, because they are soft and moist. The Loakan branch also serves for dine-in customers where they can enjoy their bread and cakes with their warm and comforting coffee."
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.342"
                     app:layout_constraintStart_toStartOf="parent"
