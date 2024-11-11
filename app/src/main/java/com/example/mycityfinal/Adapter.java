@@ -1,6 +1,7 @@
 package com.example.mycityfinal;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,9 +46,27 @@ public class Adapter extends RecyclerView.Adapter <Adapter.ViewHolder> {
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+
+            itemView.setOnClickListener(new View.OnClickListener () {
+                @Override
+                public void onClick(View v) {
+                    Intent i = new Intent(v.getContext(), BakeryRecosActivity.class);
+                    i.putExtra("Bakeries", data.get(getAdapterPosition()));
+                    v.getContext().startActivity(i);
+
+                    Intent g = new Intent(v.getContext(),UkayRecosActivity.class);
+                    g.putExtra("Ukay", data.get(getAdapterPosition()));
+                    v.getContext().startActivity(g);
+
+                    Intent a = new Intent(v.getContext(), CoffeeRecosActivity.class);
+                    a.putExtra("Coffee Shops", data.get(getAdapterPosition()));
+                    v.getContext().startActivity(a);
+                }
+            });
             textTitle = itemView.findViewById(R.id.appName);
             textDescription = itemView.findViewById(R.id.appInfo);
         }
     }
 }
+
 
